@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Button from "@mui/material/Button";
 import { TextField } from "@mui/material";
 import Switch from "@mui/material/Switch";
@@ -5,6 +6,8 @@ import FormGroup from "@mui/material";
 import FormControlLabel from "@mui/material";
 
 function FormSingUp() {
+
+  const [name, setName] = useState("")
   return (
     <form>
       <TextField id="name" label="Nombre" variant="outlined" margin="normal"></TextField>
