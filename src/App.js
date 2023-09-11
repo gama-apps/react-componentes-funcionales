@@ -1,7 +1,6 @@
 import './App.css';
-import Container from '@mui/material/Container'
-import FormSignUp from './components/FormSignUp';
-import Typography from '@mui/material/Typography'
+import FormSingUp from './components/FormSingUp';
+
 function App() {
 
   const handleSubmit = (valores) => {
